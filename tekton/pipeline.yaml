@@ -1,0 +1,15 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: devops-capstone-pipeline
+spec:
+  tasks:
+    - name: build
+      taskRef:
+        name: build-task
+    - name: test
+      taskRef:
+        name: test-task
+    - name: deploy
+      taskRef:
+        name: deploy-task

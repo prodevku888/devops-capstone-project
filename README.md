@@ -1,5 +1,9 @@
 # DevOps Capstone Project
 
+![workflow](https://img.shields.io/github/workflow/status/prodevku888/devops-capstone-project/CI?label=workflow)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.9-green.svg)
+
 ## Judul Proyek
 Build an Automated CD DevOps Pipeline Using Tekton and OpenShift
 
